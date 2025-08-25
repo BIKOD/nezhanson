@@ -1,0 +1,38 @@
+{
+  "name": "nazhan-zaatar-website",
+  "version": "1.0.0",
+  "description": "موقع ويب احترافي لمعمل الزعتر النزهان",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "live-server --port=8000",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "زعتر",
+    "توابل",
+    "بهارات",
+    "أعشاب",
+    "سوريا",
+    "النزهان",
+    "معمل",
+    "طبيعي"
+  ],
+  "author": "معمل الزعتر النزهان",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nazhan-zaatar/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nazhan-zaatar/website/issues"
+  },
+  "homepage": "https://nazhan-zaatar.com",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

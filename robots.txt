@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nazhan-zaatar.com/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all content
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
